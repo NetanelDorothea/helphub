@@ -1,0 +1,24 @@
+@import url(nav.css);
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Michroma&family=Outfit:wght@100..900&display=swap');
+
+/* #000000 - rgb(0, 0, 0) - black*/
+/* #14213d - rgb(20, 33, 61) - darkblue */
+/* #FCA311 - rgb(252, 163, 17) - yellowgold*/
+/* #E5E5E5 - rgb(229, 229, 229) - gray */
+/* #FFFFFF - rgb(255, 255, 255) - white */
+
+*{
+    padding:0;
+    margin:0;
+    font-family: "Outfit", sans-serif;
+}
+
+html{
+    background-color: black;
+    scroll-behavior: smooth;
+}
+
+body{
+    max-width: 4000px;
+    margin: auto;
+}

@@ -1,0 +1,75 @@
+<!-- alt + shift + f -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="img/logo.png">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/initial.css">
+    <link rel="stylesheet" href="css/charity_profile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/charity_profile.js"></script>
+    <title>HelpHub | Charity</title>
+</head>
+
+<body>
+    <nav>
+        <div class="hamburger">
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="logo"></a>
+            <div>
+                <a href="charities.html"><span>Charities</span></a>
+                <a href="#">Donate</a>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+        <div class="nav-links-box">
+            <a href="charities.html"><span>Charities</span></a>
+            <a href="#">Donate</a>
+            <a href="#">About Us</a>
+        </div>
+    </nav>
+    <div class="charity-profile">
+        <div class="charity-info">
+            <button class="back-btn" onclick="history.back()">Go Back</button>
+            <h1>Charity</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam dolore atque sapiente, excepturi,
+                ipsam itaque minima incidunt corporis inventore mollitia nihil aliquam omnis, nobis voluptatibus tenetur
+                debitis asperiores in?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam dolore atque sapiente, excepturi,
+                ipsam itaque minima incidunt corporis inventore mollitia nihil aliquam omnis, nobis voluptatibus tenetur
+                debitis asperiores in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam aut ad tempore,
+                odio veritatis dignissimos perspiciatis excepturi quia porro numquam placeat illo, vel, ratione
+                laboriosam earum deleniti velit! Dolorum, praesentium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam dolore atque sapiente, excepturi,
+                ipsam itaque minima incidunt corporis inventore mollitia nihil aliquam omnis, nobis voluptatibus tenetur
+                debitis asperiores in?</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101410.02728516745!2d-122.08130059999998!3d37.411977449999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb7495bec0189%3A0x7c17d44a466baf9b!2sMountain%20View%2C%20Californi%C3%AB!5e0!3m2!1snl!2sus!4v1743724121407!5m2!1snl!2sus"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" alt="location-of-charity-on-map"></iframe>
+        </div>
+        <div class="charity-form">
+            <img src="img/banner_img_3.png" alt="charity-profile-picture">
+            <button id="open-form">VOLUNTEER NOW</button>
+            <form id="form-content" action="charities.html">
+                <p>All fields are required</p>
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" placeholder="John" required><br>
+                <label for="lname">Last Name:</label>
+                <input type="text" name="lname" placeholder="Doe" required><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="johndoe@example.com" required><br>
+                <label for="number">Phonenumber:</label>
+                <input type="tel" name="number" placeholder="(123)-123456789" required><br>
+                <input id="submit-btn" type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+    <footer>
+        © 2025 HelpHub Inc. All Rights Reserved.
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+body{
+    background-color: #eaecee ;
+    /* background-image: url(../img/pen-paper.png); */
+    background:url(../img/pen-paper.png) no-repeat center;
+    background-size: cover;
+    padding-top: 0;
+    padding-top: .1px;
+}
+
+.charity-profile{
+    width:calc(100% - 30px);
+    max-width: calc(1200px - 30px);
+    background-color: rgba(255, 255, 255, 0.8);
+    margin:150px auto;
+    display: grid;
+    grid-template-columns:3fr 2fr;
+    gap:20px;
+    padding:10px;
+    border-radius: 5px;
+    border:2px solid white;
+    box-shadow: 2px 2px 24px black;
+}
+
+.charity-info{
+
+}
+
+.back-btn{
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border:none;
+    margin-bottom: 10px;
+    color:#3498db;
+}
+
+.back-btn:hover{
+    color:gray;
+}
+
+.charity-info p{
+    margin-bottom: 20px;
+}
+
+.charity-info iframe{
+    width:80%;
+    background-color: gray;
+    background-image: url(../img/maps.png);
+}
+
+.line{
+    /* box-shadow: 1px 1px 5px black; */
+    width:60px;
+    height:1px;
+    margin:10px 0;
+    background-color: black;
+}
+
+.charity-form{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background-color: #3498db; */
+    /* background-color: #FCA311; */
+    border-radius: 5px;
+    overflow: hidden;
+    border:2px solid white;
+}
+
+.charity-form img{
+    width:100%;
+}
+
+.charity-form form{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    margin:20px auto;
+}
+
+.charity-form label{
+    color:white;
+}
+
+.charity-form input{
+    padding:10px;
+}
+
+.charity-form p{
+    color:#FCA311;
+    text-shadow: 1px 1px 8px black;
+    font-weight: 100;
+    margin-bottom:20px;
+}
+
+#submit-btn{
+    width: fit-content;
+    padding:10px 30px;
+    margin:10px auto 0 auto;
+    border:2px solid white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    color:white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#submit-btn:hover{
+    border:2px solid transparent;
+    background-color: rgb(78, 203, 0);
+}
+
+#open-form{
+    width:100%;
+    display: block;
+    background-color: rgba(252, 163, 17, 0.9);
+    border:2px solid rgba(252, 163, 17, 0.9);
+    color:white;
+    padding:20px;
+    border-radius:2px;
+    margin:10px auto;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#open-form:hover{
+    border:2px solid black;
+    color:black;
+    background-color: rgba(0, 0, 0, 0.1);;
+}
+
+@media (max-width: 800px) {
+    .charity-profile {
+        margin:120px auto 50px auto;
+        grid-template-columns: 1fr; 
+    }
+
+    .charity-info iframe{
+        width:100%;
+    }
+  }
